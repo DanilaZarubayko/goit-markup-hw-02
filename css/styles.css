@@ -1,0 +1,255 @@
+:root{
+--color-primary: #757575;
+--color-brand: #2196F3;
+--color-background: #FFFFFF;
+}
+
+body{
+    color:var(--color-primary);
+    background-color:var(--color-background)
+    font-family: 'Roboto', sans-serif;
+}
+
+.page-header{
+    background: #FFFFFF;
+}
+
+.logo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #000000;
+    text-decoration: none;
+    list-style: none;
+}
+.web{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #2196F3;
+    text-decoration: none;
+    list-style: none;
+}
+
+.site-nav{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+    list-style: none;
+}
+.site-nav-studio{
+    color:var(--color-brand);
+    text-decoration: none;
+    list-style: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.site-nav:hover{
+    color: var(--color-brand);
+}
+
+.site-nav:focus{
+    color: var(--color-brand);
+}
+.contact {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color:var(--color-primary);
+    list-style: none;
+    text-decoration: none;
+}
+.contact:hover{
+color: var(--color-brand);
+}
+
+.section-1 {
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background: #2F303A;
+}
+
+.main-batton{
+color: #ffffff;
+background-color: #2196F3;
+width: 216px;
+height: 50px;
+left: 692px;
+top: 430px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+cursor: pointer;
+}
+.main-batton:hover{
+color: #2196F3;
+background-color: #188ce8;
+}
+
+.main-batton:focus{
+    border: 1px solid
+    }
+
+.main-batton :active{
+
+}
+
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center; 
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.hidden-title{
+    visibility: hidden;
+}
+
+.section-2{
+}
+
+.preference{
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.preference-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #757575;
+}
+
+.list{
+    list-style: none;
+    text-decoration: none;
+}
+
+.about{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+ 
+.section-3{
+}
+
+.maps{
+color: #FFFFFF; 
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+list-style: none;
+text-decoration: none;
+}
+
+.maps:hover{
+    color: var(--color-brand);
+}
+
+.team-section{
+    background: #F5F4FA;
+}
+
+.team-box {
+    background: #FFFFFF;
+}
+
+.team-list{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.2;
+color: #212121;
+}
+.team-profession{
+    color: var(--color-primary);
+    font-size: 16px;
+}
+.page-footer{
+font-style: normal;
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2094px;
+background: #2F303A;
+}
+
+.portfolio-styles{
+    background-color: #FFFFFF;
+}
+
+.filters-list{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.filters-list .item + .item {
+    margin-left: 8px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.button-nav-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: inherit;
+    text-align: center;
+    color: inherit;
+    background-color:var(--color-brand);
+    cursor: pointer;
+    padding: 6px 22px;
+    border: none;
+    border-radius: 4px;
+}
+
+
+.button-nav{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: inherit;
+    text-align: center;
+    color: inherit;
+    background-color: #F5F4FA;
+    cursor: pointer;
+    padding: 6px 22px;
+    border: none;
+    border-radius: 4px;
+}
+
+.button-nav:hover {  
+    color: #FFFFFF;
+    background-color: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.button-nav:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
